@@ -12,7 +12,7 @@ import { SearchComponent } from '../search/search.component';
 export class CarTableComponent {
   displayedColumns: string[] = ['id', 'make', 'model', 'year', 'color', 'price'];
   cars = [
-    {id: 1, make: 'Toyota', model: 'Corolla', year: 2020, color: 'Red', price: 20000},
+    {id: 1, make: 'Toyota', model: 'Corolla', year: 2020, color: 'Red', price: 20000,},
     {id: 2, make: 'Honda', model: 'Civic', year: 2019, color: 'Blue', price: 22000},
     {id: 3, make: 'Ford', model: 'Mustang', year: 2021, color: 'Black', price: 35000},
     {id: 4, make: 'Chevrolet', model: 'Impala', year: 2018, color: 'White', price: 24000},
@@ -43,4 +43,3 @@ export class CarTableComponent {
     );
   }
 }
-//added a comment

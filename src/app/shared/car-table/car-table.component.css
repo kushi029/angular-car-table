@@ -31,3 +31,8 @@ table {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
+
+
+.mat-mdc-table {
+  background-color: antiquewhite;
+}
