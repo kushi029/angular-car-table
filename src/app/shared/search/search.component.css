@@ -1,0 +1,43 @@
+/* Container for the search input and button */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+  margin-bottom: 20px;
+}
+
+/* Styling for the search input field */
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Styling for the search button */
+.search-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff; /* Bootstrap primary color or choose another color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3; /* Darker shade of the button color */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Optional: Add focus effect to input field */
+.search-input:focus {
+  outline: none;
+  border-color: #007bff; /* Bootstrap primary color for example */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
