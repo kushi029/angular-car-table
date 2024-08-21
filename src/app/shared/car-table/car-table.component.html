@@ -1,7 +1,9 @@
 <div class="table-container">
   <h1 class="page-heading">CAR LIST</h1>
 <app-search (search)="onSearch($event)"></app-search>
-
+<div *ngIf="noResults" class="no-results-message">
+  Not available
+</div>
 <table mat-table [dataSource]="filteredCars" class="mat-elevation-z8">
   <!-- ID Column -->
   <ng-container matColumnDef="id">

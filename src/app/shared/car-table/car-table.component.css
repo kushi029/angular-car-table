@@ -35,4 +35,11 @@ table {
 
 .mat-mdc-table {
   background-color: antiquewhite;
-}//added this css 
+} 
+
+.no-results-message {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
